@@ -14,7 +14,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   List<int> numbers = [];
 
-
   void onClick() {
     setState(() { //가독성이 좋기 위해서 setState안에 넣는다.
       numbers.add(numbers.length);
